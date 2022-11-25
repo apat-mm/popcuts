@@ -78,7 +78,6 @@ app.use('/api/cart', cart_routes);
 /*app.listen(port, () => {
     console.log('listening on port ' + port);
 });*/
-
 //Nos conectamos a mongoDB. Opción { useNewUrlParser: true } para utilizar las últimas funcionalidades de mongoDB
 mongoose.connect(url, { useNewUrlParser: true }).then(() =>{
 
