@@ -19,7 +19,7 @@ const port = 3900;
 
 var mongoose = require('mongoose');
 //Dirección a la base de datos:
-var url = 'mongodb+srv://ADMIN:ADMIN@cluster0.iwailrw.mongodb.net/test';
+var url = 'mongodb+srv://ADMIN:ADMIN@cluster0.ifbctwu.mongodb.net/test';
 // var url = 'mongodb+srv://ADMIN:ADMIN@cluster0.iwailrw.mongodb.net/test';
 //Configuración para evitar fallos en la conexión con mongoDB
 mongoose.Promise = global.Promise;
