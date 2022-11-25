@@ -68,7 +68,6 @@ app.use((req, res, next) => {
     next();
 });
 
-//Cargamos los archivos de ruta
 app.use('/api/product', product_routes);
 app.use('/api/recipe', recipe_routes);
 app.use('/api/cart', cart_routes);
